@@ -67,6 +67,9 @@ android {
 }
 
 dependencies {
+    // Add WindowSizeClass
+    implementation("androidx.compose.material3:material3-window-size-class")
+
     implementation(platform("androidx.compose:compose-bom:2023.06.00"))
     implementation("androidx.activity:activity-compose:1.7.2")
     implementation("androidx.compose.material:material-icons-extended")
